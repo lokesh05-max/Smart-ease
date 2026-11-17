@@ -1,0 +1,13 @@
+{
+  "name": "smart-parking-system-root",
+  "version": "1.0.0",
+  "description": "Real-Time Smart Parking Reservation and Management System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "test:backend": "npm --prefix server test",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}
